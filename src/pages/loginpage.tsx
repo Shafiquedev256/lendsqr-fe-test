@@ -1,11 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-type User = {
-  password: string;
-  email: string;
-};
-
 const LoginPage = () => {
   const navigate = useNavigate();
   const [show, setSHow] = useState<"password" | "text">("password");
