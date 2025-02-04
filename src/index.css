@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.loginshadow {
+  box-shadow: 0px 0px 90px 0px #00000008;
+}
+
+::-webkit-scrollbar {
+  display: block;
+  width: 7px;
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fbfbfb;
+  border-radius: 20px;
+  border-right: none;
+  border-left: none;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #fbfbfb;
+}
+
+::-webkit-scrollbar-track-piece:end {
+  background: transparent;
+  margin-bottom: 5px;
+}
+
+::-webkit-scrollbar-track-piece:start {
+  background: transparent;
+  margin-top: 5px;
+}
+
+.shadow {
+  box-shadow: 3px 0px 20px 0px #0000000a;
+}
+.shadow2 {
+  box-shadow: 0px 5px 20px 0px #0000000a;
+}
+.shadow3 {
+  box-shadow: 3px 5px 20px 0px #0000000a;
+}
+
+.td {
+  @apply text-[14px]    text-[#545F7D];
+}
